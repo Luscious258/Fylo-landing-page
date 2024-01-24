@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.links > a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+p, a {
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+    padding: 0 50px;
+}
+
+.right {
+    min-width: 200px;
+}
+
+.right > h1 {
+    margin-bottom: 20px;
+}
+
+.left > img {
+    max-width: 700px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+input {
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 1.9px;
+    padding: 0 20px;
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-width: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.bg-curve-desktop {
+  position: relative;
+  width: 100%;
+  max-width: 1578px;
+  height: 120px; 
+}
+
+.curvy-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.productive {
+  padding: 0 50px;
+  background-color: hsl(240, 75%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.stay-productive {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stay-productive p {
+    width: 540px;
+}
+
+#illustration-2 {
+    max-width: 600px;
+}
+
+.how-it-works {
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 2px solid hsl(0, 0%, 75%);
+    padding-bottom: 4px;
+    margin-top: 20px;
+}
+
+.how-it-works > a:hover {
+    cursor: pointer;
+    color: hsl(170, 19%, 76%);
+    border-color: hsl(170, 19%, 76%);
+}
+
+.how-it-works > a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+}
+
+.quote {
+    background-color: white;
+    width: 410px;
+    height: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.quote > p {
+    margin-top: 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.avatar > img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.avatar p {
+    font-size: 13px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 50px;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+
+section div {
+    width: 500px;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-2 input {
+    width: 500px;
+}
+
+.form-2 button {
+    width: 200px;
+    border-radius: 2px;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 100px 200px 100px 50px;
+    color: white;
+}
+
+footer > img {
+    margin-bottom: 20px;
+    filter: invert(100%) brightness(4) grayscale(1);
+    
+}
+
+.links-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.links-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.infos, .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+i {
+    color: white;
+}
+
+.icons i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons i:hover {
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    border-color: hsl(224, 93%, 58%);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
+
+@media screen and (max-width: 1111px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+
+    .right > form {
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .productive {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .illustration-2 img {
+       margin: 0 50px;
+    }
+
+    .how-it-works{
+       margin: 20px auto;
+    }
+
+    .quote-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-2 > button {
+        width: 350px;
+    }
+
+    .form-2 > input {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 816px){
+
+    footer {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .infos {
+        align-items: center;
+    }
+
+    footer .links-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
