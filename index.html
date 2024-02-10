@@ -123,9 +123,14 @@
             </p>
           </div>
 
-          <form class="form-2" action="/submit" method="post">
+          <form
+            action="mailto:axelace928@gmail.com"
+            class="form-2"
+            action="/submit"
+            method="post"
+            enctype="text/plain">
             <input type="email" name="email" id="email" placeholder="example@gmail.com" required />
-            <button type="submit">Get Started For Free</button>
+            <input type="submit" value="Get Started For Free" />
           </form>
         </section>
       </main>
@@ -158,5 +163,17 @@
         </div>
       </footer>
     </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: 'pnSS8AsZkdATi__2I',
+        });
+      })();
+    </script>
+    <script src="script.js"></script>
   </body>
 </html>
