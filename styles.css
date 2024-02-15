@@ -104,7 +104,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: hsl(240, 75%, 98%);
+    background-color: hsl(240, 52%, 81%);
 }
 
 .bg-curve-desktop {
